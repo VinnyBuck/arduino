@@ -1,0 +1,15 @@
+{
+  "name": "arduino",
+  "version": "1.0.0",
+  "description": "Palestra para GDG-ABC conectando Arduino no Google Firebase",
+  "main": "LDR.js",
+  "dependencies": {
+    "johnny-five": "^0.10.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
