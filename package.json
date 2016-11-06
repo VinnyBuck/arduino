@@ -4,6 +4,7 @@
   "description": "Palestra para GDG-ABC conectando Arduino no Google Firebase",
   "main": "LDR.js",
   "dependencies": {
+    "firebase": "^3.5.3",
     "johnny-five": "^0.10.3"
   },
   "devDependencies": {},
