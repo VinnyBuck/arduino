@@ -8,4 +8,5 @@ board.on("ready", function(){
   var value = 255;
   for (var i = 0; i < value; i++) {
       led.brightness(i);
+    }
 });
