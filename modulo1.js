@@ -1,6 +1,6 @@
 var five = require("johnny-five");
 var board = new five.Board();
-var firebase = require("./Firebase.js");
+var firebase = require("./firebase.js");
 var refFirabase = firebase.ref('sensores');
 var led;
 var ledValue;
