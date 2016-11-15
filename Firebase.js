@@ -1,18 +1,14 @@
 var firebase = require('firebase');
-
-
-
 var config = {
-  apiKey: "AIzaSyCc0DrjEewFUDFjBReud_oWXW-WChiGzoA",
-  authDomain: "otimizacaoimagem.firebaseapp.com",
-  databaseURL: "https://otimizacaoimagem.firebaseio.com",
-  storageBucket: "otimizacaoimagem.appspot.com",
-  messagingSenderId: "217900485453"
-};
+    apiKey: "AIzaSyCQPghWQJJ6Rrc2iSZBo6PxXyGfhaOpeJw",
+    authDomain: "conectando-arduino.firebaseapp.com",
+    databaseURL: "https://conectando-arduino.firebaseio.com",
+    storageBucket: "conectando-arduino.appspot.com",
+    messagingSenderId: "916937028700"
+  };
 
 
 var app = firebase.initializeApp(config);
 
 var  database = app.database();
-
-database.ref("/").set({'1':'1'});
+module.exports = database;
