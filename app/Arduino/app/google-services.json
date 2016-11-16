@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "916937028700",
+    "firebase_url": "https://conectando-arduino.firebaseio.com",
+    "project_id": "conectando-arduino",
+    "storage_bucket": "conectando-arduino.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916937028700:android:0c466d6edbc173bb",
+        "android_client_info": {
+          "package_name": "br.com.gdgabc.arduino1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916937028700-mv97oi2lj5iqdvft5ltm8i4qgegt1lc2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.gdgabc.arduino1",
+            "certificate_hash": "8EF8E17759C093E0BC5263F7E00672FA4C8A6B35"
+          }
+        },
+        {
+          "client_id": "916937028700-in141ftjiou217sq2g6b640k8voglrkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQXfhl1H1em5jnCWNvp16R73eDTXdn01Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "916937028700-in141ftjiou217sq2g6b640k8voglrkr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916937028700:android:2fddcb762539af99",
+        "android_client_info": {
+          "package_name": "br.com.gdgabc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916937028700-jbp28avvvhca612m8200799h7dg56a70.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.gdgabc",
+            "certificate_hash": "8EF8E17759C093E0BC5263F7E00672FA4C8A6B34"
+          }
+        },
+        {
+          "client_id": "916937028700-in141ftjiou217sq2g6b640k8voglrkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQXfhl1H1em5jnCWNvp16R73eDTXdn01Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "916937028700-in141ftjiou217sq2g6b640k8voglrkr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
