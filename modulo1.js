@@ -1,9 +1,9 @@
 var five = require("johnny-five");
 var board = new five.Board();
 var firebase = require("./firebase.js");
-var refFirabase = firebase.ref('sensores');
+var refFirabase = firebase.ref('modulo1');
 var led;
-var ledValue;
+var ledValue = false;
 
 const LED_PIN = 9;
 const BUTTON_PIN = 8;
@@ -23,8 +23,7 @@ board.on("ready", function(){
     });
 
     button.on("hold", function(){
-      console.log("Hold button");
-      refFirabase.set({teste:!ledValue});
+      refFirabase.set({led:!ledValue});
     });
 
 });
@@ -33,7 +32,12 @@ board.on("ready", function(){
 * Método que altera o estato do LED
 */
 var refresh = function(value){
-  ledValue = value.teste;
+  console.log(value);
+  if(value == null){
+    return;
+  }
+  ledValue = value.led;
+
   if(ledValue){
     led.on();
   } else {
@@ -53,6 +57,5 @@ var initFirebase = function(){
 *Quando alterar algum dados na estrutura do firebase
 */
 refFirabase.on("child_changed", function(snapshot){
-  console.log(snapshot.key);
   refresh(snapshot);
 });
