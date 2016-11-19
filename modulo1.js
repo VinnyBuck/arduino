@@ -32,7 +32,6 @@ board.on("ready", function(){
 * Método que altera o estato do LED
 */
 var refresh = function(value){
-  console.log(value);
   if(value == null){
     return;
   }
